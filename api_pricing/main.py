@@ -1,6 +1,7 @@
 import flask
 from flask import request
-from rapidAPI import *
+from rapidAPI import get_instrument_price
+import model
 
 app = flask.Flask(__name__)
 
@@ -18,4 +19,5 @@ def get_price():
         return result
 
 
-app.run()
+if __name__ == "__main__":
+    app.run()
