@@ -12,10 +12,8 @@ def get_price():
         return get_instrument_price(request.args["symbol"], request.args["region"])
     else:
         result = model.instrument_price.copy()
-        result["message"] = "Error: No symbol or region code provided. " \
-                            "Please specify a symbol and region code as query params for this request. " \
-                            "If region query parm is provided with empty value the search will defaulted to US " \
-                            "region. "
+        result["message"] = "Error: symbol and region are required. " \
+                            "Please specify a symbol and region code as query params for this request. "
         return result
 
 
