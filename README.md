@@ -25,15 +25,15 @@ python main.py
 
 
 # Test the api in your local environement
-1- Use postman, soapUI, google chrome browser...
-2- It's a GET request with 2 mandatory queryparams symbol and region:
-- url: http://127.0.0.1:5000/api/v1/instrument/price?symbol=TSLA&region=US
-- symbol(queryparam): Instrument code (exp: IBM, AAPL, TSLA..)
-- region(queryparam): should be one of these values ["US", "BR", "AU", "CA", "FR", "DE", "HK", "IN", "IT", "ES", "GB", "SG"].
+- Use postman, soapUI, google chrome browser...
+- It's a GET request with 2 mandatory queryparams symbol and region:
+-1 url: http://127.0.0.1:5000/api/v1/instrument/price?symbol=TSLA&region=US
+-2 symbol(queryparam): Instrument code (exp: IBM, AAPL, TSLA..)
+-3 region(queryparam): should be one of these values ["US", "BR", "AU", "CA", "FR", "DE", "HK", "IN", "IT", "ES", "GB", "SG"].
 	  Any other value will default region to "US" (as implemented in rapidAPI GET market/v2/get-quotes).
 		
-3- Easiest way to test:
-- Open browser and navigate to http://127.0.0.1:5000/api/v1/instrument/price?symbol=TSLA&region=US
-- Change instrument symbol in the url to get corresponding price. exp: IBM, AAPL..
+- Easiest way to test:
+-1 Open browser and navigate to http://127.0.0.1:5000/api/v1/instrument/price?symbol=TSLA&region=US
+-2 Change instrument symbol in the url to get corresponding price. exp: IBM, AAPL..
 		
 		
