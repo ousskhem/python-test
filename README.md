@@ -18,10 +18,10 @@ Requirement:
 - Clone the project 
 - Open a comand line terminal and change directory to the project folder
 - Run the following command to get necessary dependencies: 
-**pip install .
+** pip install . **
 - Change directory to api_pricing
 - Run api_pricing: 
-**python main.py
+** python main.py **
 
 
 # Test the api in your local environement
