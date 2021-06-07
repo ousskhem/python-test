@@ -18,10 +18,10 @@ Requirement:
 - Clone the project 
 - Open a comand line terminal and change directory to the project folder
 - Run the following command to get necessary dependencies: 
-pip install .
+**pip install .
 - Change directory to api_pricing
 - Run api_pricing: 
-python main.py
+**python main.py
 
 
 # Test the api in your local environement
@@ -34,6 +34,6 @@ python main.py
 		
 # Easiest way to test:
 - Open browser and navigate to http://127.0.0.1:5000/api/v1/instrument/price?symbol=TSLA&region=US
-- Change instrument symbol in the url to get corresponding price. exp: IBM, AAPL..
+- Change instrument symbol code in the url to get corresponding price. exp: IBM, AAPL..
 		
 		
