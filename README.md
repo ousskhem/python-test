@@ -17,7 +17,7 @@ Requirement:
 - Make sure python 3.7 is installed
 - Clone the project 
 - Open a comand line terminal and change directory to the project folder
-- Run the following command to get necessary dependencies:  pip install .
+- Run the following command to get necessary dependencies:  # pip install .
 - Change directory to api_pricing
 - Run api_pricing: python.exe main.py
 
