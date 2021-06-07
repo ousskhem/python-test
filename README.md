@@ -32,8 +32,8 @@ python main.py
 - region(queryparam): should be one of these values ["US", "BR", "AU", "CA", "FR", "DE", "HK", "IN", "IT", "ES", "GB", "SG"].
 	  Any other value will default region to "US" (as implemented in rapidAPI GET market/v2/get-quotes).
 		
-- Easiest way to test:
-*Open browser and navigate to http://127.0.0.1:5000/api/v1/instrument/price?symbol=TSLA&region=US
-*Change instrument symbol in the url to get corresponding price. exp: IBM, AAPL..
+# Easiest way to test:
+- Open browser and navigate to http://127.0.0.1:5000/api/v1/instrument/price?symbol=TSLA&region=US
+- Change instrument symbol in the url to get corresponding price. exp: IBM, AAPL..
 		
 		
