@@ -14,20 +14,13 @@ Requirement:
 - send code through github (please provide the link)
 			
 # Run the api in your local environement:
-1- Make sure python 3.7 is installed
-2- Clone the project 
-3- Open a comand line terminal and change directory to the project folder
-4- Run the following command to get necessary dependencies:  pip install .
-5- Change directory to api_pricing
-6- Run api_pricing: python.exe main.py
+- Make sure python 3.7 is installed
+- Clone the project 
+- Open a comand line terminal and change directory to the project folder
+- Run the following command to get necessary dependencies:  pip install .
+- Change directory to api_pricing
+- Run api_pricing: python.exe main.py
 
-Expected debug output:
- * Serving Flask app 'main' (lazy loading)
- * Environment: production
-   WARNING: This is a development server. Do not use it in a production deployment.
-   Use a production WSGI server instead.
- * Debug mode: off
- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 
 # Test the api in your local environement
 1- Use postman, soapUI, google chrome browser...
